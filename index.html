@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="pointy">
+<head>
+
+	<script src="/lib/angular.js"></script>
+	<script src="/app.js"></script>
+	<link rel="stylesheet" href="/public/styles/styles.css">
+
+</head>
+<body>
+
+
+<header ng-include src="'includes/header.html'"></header>
+
+	<div ng-controller="pointyController">
+
+		<span>{{todos.length}} Total</span>
+
+		<ul>
+			<check ng-repeat="todo in todos"></check>
+		</ul>
+
+		<form ng-submit="addTodo()">
+			<input type="text" ng-model="todoText" placeholder="add new todo here">
+			<input class="btn-primary" type="submit" value="add">
+		</form>
+
+	</div>
+
+</body>
+</html>
