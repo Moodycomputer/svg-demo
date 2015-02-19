@@ -9,23 +9,13 @@
 </head>
 <body>
 
+	<ng-include src="'includes/header.html'"></ng-include>
 
-<header ng-include src="'includes/header.html'"></header>
+	<main class="workspace">
 
-	<div ng-controller="pointyController">
+		<p>Primary Workspace</p>
 
-		<span>{{todos.length}} Total</span>
-
-		<ul>
-			<check ng-repeat="todo in todos"></check>
-		</ul>
-
-		<form ng-submit="addTodo()">
-			<input type="text" ng-model="todoText" placeholder="add new todo here">
-			<input class="btn-primary" type="submit" value="add">
-		</form>
-
-	</div>
+	</main>
 
 </body>
 </html>

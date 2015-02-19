@@ -1,0 +1,18 @@
+html{
+  box-sizing: border-box;
+  position: relative;
+  overflow: auto;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  position: inherit;
+  overflow: inherit;
+}
+body{
+	margin: 0;
+	background: color('white');
+	font: 100% 'Helvetica';
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
