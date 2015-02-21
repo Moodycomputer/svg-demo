@@ -64,4 +64,5 @@ header {
 .content {
   height: 55%;
   width: 100%;
-  background: #FFFFFF; }
+  background: #FFFFFF;
+  padding: 0 1em; }
