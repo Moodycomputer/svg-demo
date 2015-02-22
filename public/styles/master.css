@@ -18,7 +18,11 @@ body {
   flex-direction: column; }
 
 .main-nav {
-  background: #464646; }
+  background: #464646;
+  position: fixed;
+  width: 100%;
+  height: 51px;
+  z-index: 1; }
 
 .workspace {
   flex: 1;
@@ -204,15 +208,14 @@ svg {
   padding: 1em 3em;
   width: 100%;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 9%;
   box-sizing: border-box; }
 
 .welcome-box {
   width: 230px;
   height: 320px;
   float: left;
-  padding: 0.5em;
-  box-sizing: border-box; }
+  padding: 0.5em; }
 
 .welcome-box-container {
   width: 1155px;
