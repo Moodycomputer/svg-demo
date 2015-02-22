@@ -3,17 +3,18 @@
 <head>
 
 	<script src="/lib/angular.js"></script>
+	<script src="/lib/angular-route.js"></script>
 	<script src="/app.js"></script>
 	<link rel="stylesheet" href="/public/styles/master.css">
 
 </head>
-<body>
+<body ng-controller="pointyController">
 
-  <ng-include src="'includes/header.html'"></ng-include>
+	<ng-include src="'includes/header.html'"></ng-include>
 
-  <main class="workspace">
-	<ng-include src="'includes/welcome.html'"></ng-include>
+	<main class="workspace">
 
+		<ng-view></ng-view>
 
 	</main>
 
