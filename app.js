@@ -1,4 +1,18 @@
-var pointy = angular.module('pointy', ['components']);
+var pointy = angular.module('pointy', ['components', 'ngRoute']);
+
+pointy.config(['$routeProvider', function($routeProvider) {
+
+	$routeProvider
+		.when('/prediction', {
+			templateUrl: 'includes/viz.html',
+			controller: 'pointyController'
+		}).otherwise({
+			templateUrl: 'includes/welcome.html',
+			controller: 'pointyController'
+		});
+
+}]);
+
 
 pointy.controller('pointyController', ['$scope', function($scope) {
 
