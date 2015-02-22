@@ -27,6 +27,18 @@ header {
   font-size: 18px;
 }
 
+.left-search {
+  margin-left: 0.5em;
+  width: 90%;
+  font-size: 18px;
+  color: #666666;
+  border: none;
+}
+
+.left-search:focus {
+  outline: none;
+}
+
 
 .center {
   border: 1px solid black;
@@ -46,10 +58,13 @@ svg {
   height: 72px;
   line-height: 72px;
   margin: auto;
+  cursor: pointer;
+
 }
 
 .add, .filter, .sort {
   padding-left: 1em;
+  cursor: pointer;
 }
 
 .right {
@@ -87,6 +102,30 @@ svg {
 
 }
 
+.filter-menu {
+  display: none;
+}
+
+.filter-menu ul {
+
+}
+
+.filter-menu ul li {
+  text-decoration: none;
+}
+
+.sort-menu {
+  display: none;
+}
+
+.sort-menu ul {
+
+}
+
+.sort-menu ul li {
+  text-decoration: none;
+}
+
 .welcome-main {
   padding: 1em 3em;
   width: 100%;
@@ -108,7 +147,7 @@ svg {
 
 .welcome-box-container {
   // padding: 1em;
-  width: 100%;
+  width: 1155px;
   margin: 0 auto;
 }
 
@@ -133,8 +172,32 @@ svg {
   margin-bottom: 2em;
 }
 
-// @media screen and (max-width: 1260px) {
-//   .box {
-//     width: 25%;
-//   }
-// }
+
+
+// ##########################
+// #########MEDIA QUERIES######
+// ##########################
+
+@media screen and (max-width: 1260px) {
+  .welcome-box-container {
+    width: 930px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .welcome-box-container {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .welcome-box-container {
+    width: 470px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .welcome-box-container {
+    width: 230px;
+  }
+}

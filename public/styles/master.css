@@ -47,6 +47,16 @@ header {
   line-height: 4.5em;
   font-size: 18px; }
 
+.left-search {
+  margin-left: 0.5em;
+  width: 90%;
+  font-size: 18px;
+  color: #666666;
+  border: none; }
+
+.left-search:focus {
+  outline: none; }
+
 .center {
   border: 1px solid black;
   height: 4.5em;
@@ -63,10 +73,12 @@ svg {
   vertical-align: top;
   height: 72px;
   line-height: 72px;
-  margin: auto; }
+  margin: auto;
+  cursor: pointer; }
 
 .add, .filter, .sort {
-  padding-left: 1em; }
+  padding-left: 1em;
+  cursor: pointer; }
 
 .right {
   width: 40%;
@@ -91,6 +103,18 @@ svg {
   z-index: 10;
   background: white; }
 
+.filter-menu {
+  display: none; }
+
+.filter-menu ul li {
+  text-decoration: none; }
+
+.sort-menu {
+  display: none; }
+
+.sort-menu ul li {
+  text-decoration: none; }
+
 .welcome-main {
   padding: 1em 3em;
   width: 100%;
@@ -106,7 +130,7 @@ svg {
   box-sizing: border-box; }
 
 .welcome-box-container {
-  width: 100%;
+  width: 1155px;
   margin: 0 auto; }
 
 .image {
@@ -125,3 +149,19 @@ svg {
 
 .content .description {
   margin-bottom: 2em; }
+
+@media screen and (max-width: 1260px) {
+  .welcome-box-container {
+    width: 930px; } }
+
+@media screen and (max-width: 1020px) {
+  .welcome-box-container {
+    width: 700px; } }
+
+@media screen and (max-width: 790px) {
+  .welcome-box-container {
+    width: 470px; } }
+
+@media screen and (max-width: 560px) {
+  .welcome-box-container {
+    width: 230px; } }
