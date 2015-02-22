@@ -36,25 +36,78 @@ header {
   height: 4.5em;
   background: #FFFFFF; }
 
-.left, .center, .right {
-  height: 4.5em;
-  width: 33.33333%;
+.left {
+  width: 40%;
+  float: left;
   border: 1px solid black;
-  float: left; }
+  height: 4.5em;
+  float: left;
+  padding-left: 16px;
+  color: #666666;
+  line-height: 4.5em;
+  font-size: 18px; }
 
-.main {
+.center {
+  border: 1px solid black;
+  height: 4.5em;
+  float: left;
+  width: 20%;
+  padding-left: 16px;
+  text-align: center;
+  color: #666666;
+  line-height: 4.5em;
+  font-size: 18px; }
+
+svg {
+  display: inline-block;
+  vertical-align: top;
+  height: 72px;
+  line-height: 72px;
+  margin: auto; }
+
+.add, .filter, .sort {
+  padding-left: 1em; }
+
+.right {
+  width: 40%;
+  border: 1px solid black;
+  height: 4.5em;
+  float: left;
+  padding-left: 16px;
+  text-align: center;
+  color: #666666;
+  line-height: 4.5em;
+  font-size: 18px; }
+
+.filter-svg {
+  margin-left: 10em; }
+
+.filter {
+  margin-right: 3em; }
+
+.add-menu {
+  width: 356px;
+  height: 371px;
+  z-index: 10;
+  background: white; }
+
+.welcome-main {
   padding: 1em 3em;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box; }
 
-.box {
-  width: 20%;
-  height: 20em;
+.welcome-box {
+  width: 230px;
+  height: 320px;
   float: left;
   padding: 0.5em;
   border: 1px solid black;
   box-sizing: border-box; }
+
+.welcome-box-container {
+  width: 100%;
+  margin: 0 auto; }
 
 .image {
   height: 45%;
@@ -66,3 +119,9 @@ header {
   width: 100%;
   background: #FFFFFF;
   padding: 0 1em; }
+
+.content .title {
+  margin-bottom: 0; }
+
+.content .description {
+  margin-bottom: 2em; }
