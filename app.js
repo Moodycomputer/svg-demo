@@ -60,7 +60,16 @@ components.directive('assetcard', function(){
 		restrict: 'E',
 		replace: 'true',
 		controller: function($scope){
-			//component specific functions go here
+
+
+			$scope.overlay = false;
+
+			$scope.overlaySwitch = function(){
+				$scope.overlay = true;
+			}
+
+
+
 		},
 		templateUrl: '/components/asset-card.html'
 	}

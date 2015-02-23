@@ -1,10 +1,10 @@
 <div class="welcome-box">
-  <span class="sma-overlay"></span>
+  <span ng-show="overlay" class="sma-overlay"></span>
   <div class="image"></div>
   <div class="content">
     <div class="title">
       <h2>{{asset.title}}</h2>
-      <svg version="1.1" class="title-dots" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve"> <circle cx="7.5" cy="1.5" r="1.5" fill="#616874"></circle> <circle cx="7.5" cy="7.5" r="1.5" fill="#616874"></circle> <circle cx="7.5" cy="13.5" r="1.5" fill="#616874"></circle> </svg>
+      <svg ng-click="overlaySwitch()" version="1.1" class="title-dots" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve"> <circle cx="7.5" cy="1.5" r="1.5" fill="#616874"></circle> <circle cx="7.5" cy="7.5" r="1.5" fill="#616874"></circle> <circle cx="7.5" cy="13.5" r="1.5" fill="#616874"></circle> </svg>
     </div>
     <div class="description"><p>This is the description.</p></div>
     <div class="date">Feb 21, 2015</div>
