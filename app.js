@@ -3,11 +3,13 @@ var pointy = angular.module('pointy', ['components', 'ngRoute']);
 pointy.config(['$routeProvider', function($routeProvider) {
 
 	$routeProvider
-		.when('/prediction', {
-			templateUrl: 'includes/viz.html',
+		.when('/:file', {
+			templateUrl: function($routeParams){
+				return 'views/'+ $routeParams.file +'.html'
+			},
 			controller: 'pointyController'
 		}).otherwise({
-			templateUrl: 'includes/welcome.html',
+			templateUrl: 'views/welcome.html',
 			controller: 'pointyController'
 		});
 

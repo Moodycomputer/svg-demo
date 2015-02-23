@@ -1,6 +1,7 @@
-<main ng-view class="workspace">
 
-
+<div class="main-nav">
+  <p>Main Nav</p>
+</div>
 
 <div class="welcome-container">
 
@@ -28,35 +29,9 @@
 
   <div class="welcome-main">
 
-<!--     <div class="add-menu">
-      <div class="top"></div>
-      <hr>
-      <div class="bottom"></div>
-    </div>
-    <div class="filter-menu">
-      <ul>
-        <li>All</li>
-        <li>Data sets</li>
-        <li>Explorations</li>
-        <li>Predictions</li>
-        <li>Views</li>
-        <li>Tutorials and Samples</li>
-      </ul>
-    </div>
-    <div class="sort-menu">
-      <ul>
-        <li>A-Z</li>
-        <li>Last Modified</li>
-        <li>Created</li>
-      </ul>
-    </div> -->
-
-
     <div class="welcome-box-container">
 
       <assetcard ng-repeat="asset in assets | filter:assetSearch"></assetcard>
     </div>
   </div>
 </div>
-
-</main>
