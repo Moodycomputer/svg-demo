@@ -250,6 +250,9 @@ svg {
   color: #616875;
   margin-bottom: 0; }
 
+.content .title h2 {
+  font-weight: 400; }
+
 .content .description {
   margin-bottom: 1.5em;
   color: #616875; }
@@ -263,14 +266,20 @@ svg {
 
 @media screen and (max-width: 1020px) {
   .welcome-box-container {
-    width: 700px; } }
+    width: 700px; }
+  .welcome-main {
+    margin-top: 12%; } }
 
 @media screen and (max-width: 790px) {
   .welcome-box-container {
     width: 470px; }
   .mobile-menu {
-    display: inline-block; } }
+    display: inline-block; }
+  .welcome-main {
+    margin-top: 15%; } }
 
 @media screen and (max-width: 560px) {
   .welcome-box-container {
-    width: 230px; } }
+    width: 230px; }
+  .welcome-main {
+    margin-top: 21%; } }
