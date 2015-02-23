@@ -166,54 +166,6 @@ svg {
   z-index: 10;
   background: white; }
 
-.filter-menu {
-  display: none;
-  position: absolute;
-  background: #ffffff;
-  border: 1px solid #666666;
-  width: 250px;
-  height: 239px;
-  background: #FFFFFF;
-  color: #666666;
-  z-index: 1;
-  right: 7%; }
-
-.filter-menu:after, .filter-menu:before {
-  bottom: 100%;
-  left: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  z-index: 1; }
-
-.filter-menu:after {
-  border-color: rgba(255, 255, 255, 0);
-  border-bottom-color: #ffffff;
-  border-width: 30px;
-  margin-left: -30px; }
-
-.filter-menu:before {
-  border-color: transparent;
-  border-bottom-color: #666666;
-  border-width: 31px;
-  margin-left: -31px; }
-
-.filter-menu ul {
-  position: absolute;
-  width: 100%; }
-
-.filter-menu ul li {
-  text-decoration: none; }
-
-.sort-menu {
-  display: none; }
-
-.sort-menu ul li {
-  text-decoration: none; }
-
 .mobile-menu {
   display: none; }
 
@@ -248,10 +200,20 @@ svg {
 .content .title {
   font-size: 1em;
   color: #616875;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  margin-top: 1em;
+  height: 45px; }
 
 .content .title h2 {
-  font-weight: 400; }
+  font-weight: 400;
+  display: inline; }
+
+svg.title-dots {
+  display: inline;
+  height: 16px;
+  margin-top: 0.5em;
+  position: absolute;
+  right: 0; }
 
 .content .description {
   margin-bottom: 1.5em;
@@ -259,6 +221,16 @@ svg {
 
 .content .date {
   color: #929497; }
+
+span.sma-overlay {
+  display: none;
+  width: 230px;
+  height: 320px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: #FFFFFF;
+  padding: 0.5em; }
 
 @media screen and (max-width: 1260px) {
   .welcome-box-container {
