@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<g id="Layer_1">
+	<path fill="none" stroke="#498313" stroke-miterlimit="10" d="M236.3,375.5"/>
+	<path fill="none" stroke="#498313" stroke-miterlimit="10" d="M164.1,354.2"/>
+</g>
+<g id="Layer_2">
+	<circle fill="#F9F9F9" cx="295.2" cy="394.2" r="224.3"/>
+	<circle fill="#EBEBEB" cx="297.2" cy="395" r="169.3"/>
+	<circle fill="#D9D9D9" cx="294.8" cy="394.1" r="113.5"/>
+	<circle fill="#606162" cx="296.4" cy="394.7" r="62.9"/>
+	<circle fill="#7F8184" cx="295.5" cy="395.7" r="40"/>
+	<circle fill="#606162" cx="295.5" cy="395.7" r="30.5"/>
+	<circle fill="#7F8184" cx="295.5" cy="395.7" r="16.5"/>
+</g>
+<g id="Layer_3">
+	<text transform="matrix(1 0 0 1 269.4727 392)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">Measles</tspan><tspan x="-4.8" y="19.2" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">Outbreak</tspan></text>
+</g>
+<g id="Layer_4">
+	<path fill="none" stroke="#D1D1D1" stroke-miterlimit="10" d="M78.8,402.9c22.4,114,132.1,187.2,245.1,163.5
+		C414.3,547.5,473,458.2,455.1,367c-14.3-73-84.6-119.8-156.9-104.6c-57.8,12.1-94.7,69.1-84,127.6c13,70.4,53.2,90.2,105.4,84
+		c58.3-7,78.1-53.3,66.7-98.7c-9.7-38.9-52.6-49.1-82.3-42.9"/>
+</g>
+<g id="Layer_5">
+	<ellipse fill="#86C43B" stroke="#498313" stroke-miterlimit="10" cx="154.1" cy="350.9" rx="10.7" ry="10.3"/>
+	<line fill="none" stroke="#498313" stroke-miterlimit="10" x1="164.1" y1="354.5" x2="236.3" y2="375.8"/>
+	
+		<ellipse transform="matrix(0.2933 -0.956 0.956 0.2933 -325.6775 554.5765)" fill="#00A7D8" stroke="#0071A6" stroke-miterlimit="10" cx="212.3" cy="497.6" rx="10.7" ry="10.3"/>
+	<line fill="none" stroke="#0071A6" stroke-miterlimit="10" x1="218.5" y1="489.7" x2="257.1" y2="442.1"/>
+	
+		<ellipse transform="matrix(-0.9954 -9.629128e-002 9.629128e-002 -0.9954 776.9528 957.8605)" fill="#FDD300" stroke="#CAAC1D" stroke-miterlimit="10" cx="411.6" cy="460.2" rx="10.7" ry="10.3"/>
+	<line fill="none" stroke="#CAAC1D" stroke-miterlimit="10" x1="402.6" y1="455.7" x2="349.7" y2="428.6"/>
+</g>
+</svg>

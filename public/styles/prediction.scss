@@ -1,37 +1,117 @@
+.menu-button {
+	height: 51px;
+	width: 56px;
+	// background-color: rgba(103, 181, 27, 0.952941);
+	background: #66B038;
+}
+
+span.three-bar {
+	color: white;
+	font-size: 2em;
+	margin: 0 auto;
+	line-height: 51px;
+	margin-left: 14px;
+}
+
+.main-nav-center {
+	width: 100%;
+	text-align: center;
+	line-height: 51px;
+	font-size: 1.2em;
+	color: color('gray', 20);
+}
+
+.main-nav-center span {
+	color: #DDDDDD;
+	font-size: 1.5em;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.predict-svg {
+	height: 51px;
+	line-height: 51px;
+	left: 39%;
+}
+
+.upgrade-bar {
+	width: 100%;
+	position: fixed;
+	top: 51px;
+	height: 50px;
+	background: #4F7B34;
+	z-index: 100;
+}
+
 .insight-bar{
 	background: color('gray', 20);
 	box-shadow: 0 0 6px 1px color('gray', 20);
 	display: flex;
 	flex-direction: row;
-
+	margin-top: 101px;
 }
+
 .insight-card{
-	width: 20em;
+	width: 25%;
 	margin: 1px;
 	padding: 1em;
 	background: color('white');
 	color: color('gray', 60);
 }
+
 .insight-title{
 	font-size: 1em;
 	margin: 0 0 .5em;
 }
+
 .insight-description{
 	color: color('gray', 50);
 	font-weight: 300;
 	font-size: .875em;
 	min-height: 3em;
 	margin: 0;
+	width: 70%;
+	display: inline;
+	float: left;
+	padding: 2px;
 }
+
+.insight-icon {
+	width: 30%;
+	min-height: 3em;
+	float: right;
+	// background: red;
+}
+
+.insight-icon img {
+	width: 70%;
+	margin-left: 25%;
+}
+
 .insight-action{
 	font-size: .875em;
 	margin: 0;
+	color: color('blue', 30);
+	clear: both;
+	padding-top: 10px;
+
 }
 
+.predict-footer {
+	margin-left: -3px;
+}
+
+.predict-footer svg {
+	width: 100%;
+}
 
 
 .viz-main{
 	flex: 1;
+}
+
+.viz-main p {
+ 	text-align: center;
 }
 
 .viz-select{
