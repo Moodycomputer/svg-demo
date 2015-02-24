@@ -411,6 +411,15 @@ svg.arrow {
     background: #E0E0E0;
     border: 1px solid #AEAEAE; }
 
+.main-explore div {
+  height: 51px;
+  width: 30%;
+  display: inline; }
+
+.main-explore div svg {
+  height: 45px;
+  margin-left: 10px; }
+
 .suggestion-bar {
   margin-top: 101px;
   border-bottom: 1px solid black; }
@@ -424,6 +433,21 @@ svg.arrow {
 
 .suggestion-bar svg:nth-child(6) {
   width: 8%; }
+
+.explore-main h3 {
+  font-weight: 400;
+  color: #616875;
+  text-align: center; }
+
+.explore-main svg.graph {
+  height: 400px; }
+
+.explore-main svg.side-explore {
+  height: 400px;
+  margin-top: 3%; }
+
+.explore-main svg.sentiment {
+  height: 42px; }
 
 .sma-wrapper {
   height: 100vh;
