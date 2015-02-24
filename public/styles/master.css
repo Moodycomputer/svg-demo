@@ -256,3 +256,137 @@ span.sma-overlay {
     color: #5A5A5A;
     background: #E0E0E0;
     border: 1px solid #AEAEAE; }
+
+.sma-wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch; }
+
+.sma-nav {
+  background: #008571;
+  color: #FFFFFF; }
+  .sma-nav ul {
+    margin: 2.5em 0 0;
+    padding: 0; }
+  .sma-nav li {
+    font-weight: 300;
+    padding: .4em 2em .4em 2.5em;
+    margin: 0;
+    min-width: 16em;
+    cursor: pointer; }
+    .sma-nav li.curr {
+      background: #006D5D; }
+  .sma-nav hr {
+    border: none;
+    height: 1px;
+    background: #EED2FF;
+    margin: .5em 1em; }
+
+.sma-main {
+  flex: 1; }
+
+.sma-container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch; }
+
+.sma-workspace {
+  flex: 1;
+  padding: 2.5em 2.5em 0; }
+
+.ws-title {
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0 0 .5em;
+  border-bottom: 1px solid; }
+
+.ws-subtitle {
+  font-size: 1em;
+  color: #464646;
+  font-weight: 300;
+  margin: 0 0 1.5em;
+  line-height: 1.6; }
+
+.source-card {
+  float: left;
+  margin: 0 2em 2em 0; }
+
+.source-icon {
+  width: 6.5em;
+  height: 6.5em;
+  background: #734098; }
+
+.source-name {
+  font-weight: 300;
+  color: #5A5A5A;
+  margin: .5em 0 0; }
+
+.addForm {
+  margin: 0 0 2em;
+  display: flex;
+  flex-direction: row;
+  width: 100%; }
+  .addForm input {
+    flex: 1;
+    border: 1px solid #777677;
+    border-radius: 5px 0 0 5px;
+    font-size: 1em;
+    padding: 0 1em;
+    font-family: inherit; }
+    .addForm input:focus {
+      outline: none;
+      background: #E0E0E0; }
+  .addForm button {
+    background: #008571;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: inherit;
+    padding: 0 1em;
+    color: #FFFFFF; }
+    .addForm button:hover {
+      outline: none;
+      background: #006D5D; }
+    .addForm button:focus {
+      outline: none; }
+
+.tag {
+  display: inline-block;
+  color: #5A5A5A;
+  border: 2px solid #777677;
+  font-weight: 300;
+  padding: .425em .75em;
+  margin: 0 .75em .75em 0;
+  border-radius: 5px; }
+
+.tag.watson {
+  color: #FFFFFF;
+  background: #008571;
+  border: 2px solid #008571; }
+
+.tag::after {
+  content: 'x';
+  vertical-align: top;
+  margin: 0 0 0 .75em; }
+
+.sma-toolbar {
+  width: 25em;
+  padding: 1.5em 2em 0;
+  background: #C7C7C7; }
+
+.toolbar-header {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #464646; }
+
+.sma-toolbar .tag {
+  color: #FFFFFF;
+  background: #008571;
+  border: none; }
+
+.sma-toolbar .tag::after {
+  content: '+'; }
