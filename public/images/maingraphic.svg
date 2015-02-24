@@ -1,143 +1,10 @@
-
-<div class="main-nav welcome">
-  <div class="col-left-welcome">
-This is column 1
-  </div>
-  <div class="col-center-welcome">
-<div style="margin-left:35%;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 56.7 56.7" enable-background="new 0 0 56.7 56.7" xml:space="preserve">
-  <g id="FJWvIP.tif_1_">
-    <g>
-      <path d="M28.6,54.1c-11.1,0-20.1-8.9-20.1-19.9c0-11,9-20,20.1-20c11.1,0,20.1,9,20.1,20.1C48.7,45.2,39.6,54.1,28.6,54.1z
-         M14.5,32.3c0.2-0.3,0.3-0.6,0.5-0.8c1-1.3,2-2.6,3-3.9c0.3-0.3,0.4-0.6,0.3-1c-0.3-1.2,0.8-2.2,2-1.8c0.4,0.1,0.5,0,0.8-0.2
-        c1.7-1.2,3.4-2.3,5.1-3.5c0.1-0.1,0.3-0.2,0.4-0.2c0-0.1,0-0.1,0-0.2c-1.4-0.4-2.8-0.8-4.3-1.1c-2-0.4-3.9-0.3-5.7,0.7
-        c-0.9,0.5-1.8,1.1-2.1,2.1C13.4,25.7,13.5,28.9,14.5,32.3z M42.3,37.1c-1.1,1.4-2.2,2.7-3.3,4c-0.1,0.1-0.1,0.3-0.1,0.5
-        c0.4,2.1-1.4,3.7-3.4,3.1c-0.2,0-0.4,0-0.6,0.1c-1.6,0.9-3.2,1.9-4.8,2.9c0,0-0.1,0.1-0.2,0.1c2,1,5.4,1.4,7.5,1
-        c2.2-0.4,4.9-2.3,5.3-5.1c0.1-0.5,0.2-1.1,0.2-1.6C43,40.3,42.8,38.7,42.3,37.1z M35.1,19.5c0,1.6,0,3.1,0,4.7
-        c0,0.1,0.2,0.3,0.3,0.4c0.5,0.5,1.1,1,1.6,1.5c0.3,0.3,0.5,0.4,0.9,0.3c1-0.2,1.9,0.2,2.4,1c0.2,0.4,0.4,0.8,0.5,1.2
-        c0.9,0.1,1.8,0.3,2.8,0.4c0-1,0.2-1.9,0.1-2.8c-0.1-1.7-0.7-3.3-2.1-4.5C39.8,20.3,37.6,19.5,35.1,19.5z M21.4,47.8
-        c0-1.2,0-2.4,0-3.6c0-0.6-0.8-1.4-1.5-1.3c-0.9,0.1-1.7-0.6-1.6-1.4c0.1-0.5-0.1-0.8-0.4-1.1c-0.3-0.3-0.5-0.6-0.7-0.8
-        c-0.1-0.1-0.2-0.2-0.3-0.2c-1.4-0.1-2.7-0.3-4.2-0.4c0,0.2-0.1,0.5-0.1,0.7c-0.2,2.6,0.1,4.9,2.9,6.4
-        C17.3,47.1,19.2,47.7,21.4,47.8z M31.4,38.6c-0.8,0.1-1.4,0-1.9,0.8c-0.7,1.1-2.2,1.1-3.1,0.1c-0.1-0.1-0.3-0.2-0.5-0.2
-        c-0.6,0-1.1,0-1.7,0.1c-0.2,0-0.4,0.2-0.4,0.4c-0.2,1.4-0.4,2.8-0.5,4.2c0,0.2,0.1,0.5,0.3,0.6c1.1,0.7,2.2,1.3,3.3,2
-        c0.6,0.3,1.7-0.1,2-0.7c0.4-1,0.8-2,1.1-3.1C30.5,41.3,30.9,40,31.4,38.6z M33.4,29.7c-1,0-1,0-1.7,0.7c-0.5,0.5-1.2,0.5-1.7,0
-        c-0.2-0.3-0.4-0.3-0.7-0.2c-0.2,0-0.5,0.1-0.7,0.1c-0.4,0-0.5,0.2-0.6,0.5c-0.3,1.3-1.2,2.1-2.5,2.3c-0.3,0.1-0.4,0.2-0.5,0.5
-        c-0.2,1.1-0.5,2.1-0.7,3.2c-0.1,0.3-0.1,0.7-0.2,1.1c0.4,0,0.8-0.1,1.1-0.1c0.4,0,0.6-0.1,0.8-0.5c0.6-1.4,2.4-1.8,3.3-0.6
-        c0.5,0.7,1,0.6,1.6,0.5c0.1,0,0.3-0.1,0.4-0.1c0.3,0,0.5-0.1,0.5-0.4c0.1-0.6,0.3-1.2,0.5-1.9c0-0.2,0-0.4-0.2-0.6
-        c-0.8-0.9-0.6-2.1,0.5-2.7c0.1-0.1,0.3-0.2,0.4-0.3C33.3,30.6,33.3,30.2,33.4,29.7z M14.8,33.6c0.7,1.4,1.4,2.7,2.1,4
-        c0.1,0.1,0.3,0.2,0.5,0.2c1.4,0,2.9,0,4.3,0c0.3,0,0.4-0.1,0.5-0.4c0.2-1.2,0.5-2.5,0.8-3.7c0.2-0.7,0.3-1.4-0.4-1.9
-        c-0.1,0-0.1-0.1-0.1-0.2c-0.2-0.1-0.4-0.2-0.5-0.2c-1.2,0.3-2.4,0.6-3.6,1C17.3,32.8,16.1,33.2,14.8,33.6z M28.7,21.9
-        c-0.6,1.8-1.2,3.4-1.8,5.1c0,0.1,0,0.2,0,0.3c0.4,0.6,0.9,1.1,1.3,1.7c0.6-0.2,1.4,0,2.1-0.6c0.2-0.2,0.7-0.2,0.9-0.1
-        c0.7,0.4,1.3,0.2,2,0.2c0.3,0,0.4-0.2,0.5-0.5c0.1-0.8,0.2-1.5,0.3-2.3c0-0.2,0-0.4-0.2-0.5C32.3,24,30.6,22.9,28.7,21.9z
-         M41.4,34.4c-0.6-1.1-1.3-2.1-2-3.2c-0.1-0.1-0.3-0.1-0.4-0.1c-1.3,0.2-2.2-0.2-2.8-1.3c-0.1-0.3-0.3-0.3-0.6-0.3
-        c-1.2,0.1-1.2,0-1.4,1.2c0,0.1-0.1,0.2-0.1,0.3c0,0.2,0.1,0.4,0.2,0.5c0.5,0.4,0.7,1,0.6,1.6c-0.1,0.7-0.6,1-1.2,1.2
-        c-0.1,0-0.3,0.1-0.4,0.2c-0.2,0.7-0.4,1.3-0.5,2C35.4,36.3,40.2,35,41.4,34.4z M26.8,21.7c-0.2,0.1-0.4,0.2-0.6,0.3
-        c-1.6,1.1-3.1,2.2-4.7,3.3c-0.3,0.2-0.4,0.4-0.3,0.8c0.2,1.2-0.7,2-1.9,1.8c-0.2,0-0.5,0.1-0.6,0.2c-0.9,1.1-1.8,2.3-2.7,3.5
-        c-0.1,0.1-0.1,0.2-0.2,0.4c2.1-0.6,4.1-1.1,6.1-1.7c0,0,0-0.1,0-0.2c0.1-2,0.8-2.9,2.8-3.3c0.1,0,0.2-0.2,0.3-0.3
-        C25.6,24.9,26.2,23.4,26.8,21.7z M29.9,45.4c0.1,0,0.1,0,0.2,0c1.2-0.7,2.3-1.5,3.5-2.2c0.1-0.1,0.2-0.3,0.1-0.5
-        c-0.3-2.1,1.3-3.5,3.4-3.1c0.1,0,0.4,0,0.4-0.1c0.8-0.9,1.6-1.8,2.4-2.8c-0.2,0-0.3,0-0.3,0c-2.4,0.5-4.7,1.1-7.1,1.6
-        c-0.2,0-0.3,0.3-0.4,0.4c-0.3,0.9-0.6,1.8-0.9,2.7C30.9,42.8,30.4,44.1,29.9,45.4z M36.6,50.4c-2.8,0-5.4-1-7.9-2.1
-        c-0.8,1.3-1.6,2.6-2.4,3.8C29.9,52.6,33.4,52,36.6,50.4z M30.3,15.8c-2.9-0.4-8.9,0.7-9.8,1.8c1.2,0.2,2.5,0.4,3.7,0.7
-        c1.2,0.3,2.4,0.8,3.6,1.2C28.6,18.3,29.5,17.1,30.3,15.8z M44.8,42.4c1.5-2.8,2.2-5.7,2.1-8.9c-1.2,0.6-2.3,1.2-3.5,1.9
-        C44.3,37.7,44.9,40,44.8,42.4z M12.3,25.6c-1.5,2.7-2.1,5.7-2.1,8.8c1.1-0.6,2.1-1.1,3.1-1.6C12.5,30.5,12.1,28.1,12.3,25.6z
-         M29.6,20.5c1.5,1,3,2,4.5,3c0-1.3,0-2.6,0-3.9C32.5,19.6,31,19.9,29.6,20.5z M27.6,48.6c-1.4,0.3-2.8,0.5-4.2,0.8
-        c0.2,0.6,0.3,1.3,0.5,1.9c0.2,0.6,1.1,0.8,1.6,0.4C26.4,50.8,27,49.8,27.6,48.6z M34,18.5c-0.2-0.6-0.4-1.3-0.7-1.8
-        c-0.2-0.5-0.6-0.6-1.1-0.2c-1,0.8-1.6,1.9-2.3,3.1C31.3,19.1,32.6,18.8,34,18.5z M21.9,39.4c-1.2,0-2.4,0-3.7,0
-        c0.4,0.5,0.6,1,1.4,0.9c0.9-0.2,1.6,0.8,1.4,1.6c-0.2,0.5,0.1,0.7,0.5,0.8C21.6,41.6,21.8,40.5,21.9,39.4z M13.4,34.3
-        c0,0-0.1-0.1-0.1-0.1c-0.9,0.5-1.7,0.9-2.6,1.4c-0.2,0.1-0.3,0.4-0.4,0.6c0,0.3,0.1,0.6,0.5,0.7c0.4,0.1,0.7,0.2,1.1,0.3
-        c0.1,0,0.4-0.1,0.4-0.2C12.7,36.1,13,35.2,13.4,34.3z M42.3,32.9c0.4-0.9,0.7-1.8,1-2.7c-0.9-0.1-1.7-0.3-2.5-0.4
-        c-0.3,0-0.5,0.1-0.3,0.4C41.1,31.1,41.7,31.9,42.3,32.9z M23.3,47.7c1-0.2,1.9-0.4,2.9-0.6c0,0,0-0.1,0-0.1
-        c-0.9-0.6-1.9-1.2-2.9-1.8C23.3,46,23.3,46.8,23.3,47.7z M15.8,37.7c-0.6-1-1.1-1.9-1.7-2.9c-0.4,0.9-0.7,1.7-1,2.7
-        C14,37.5,14.9,37.6,15.8,37.7z M21.9,51.1C22,51.1,22,51,22,51c-0.2-0.5-0.3-1-0.5-1.5c-1.2-0.2-2.4-0.4-3.6-0.6
-        c0,0,0,0.1-0.1,0.1C19.2,49.7,20.6,50.4,21.9,51.1z M44.4,33.1c0,0,0.1,0.1,0.1,0.1c0.7-0.4,1.5-0.9,2.2-1.3c0.1,0,0.1-0.4,0-0.5
-        c-0.5-0.2-0.9-0.4-1.4-0.6C44.9,31.6,44.6,32.4,44.4,33.1z M37.6,18.2c0,0,0-0.1,0.1-0.1c-1.1-0.5-2.1-1-3.3-1.5
-        c0.2,0.7,0.4,1.2,0.6,1.8c0.1,0,0.1,0,0.2,0C36,18.3,36.8,18.3,37.6,18.2z M34.9,26.2c-0.1,0.9-0.2,1.5-0.3,2.3
-        c0.5,0,0.9,0,1.4-0.1c0-0.4,0.2-0.8,0.1-1C35.9,26.9,35.4,26.6,34.9,26.2z M11.8,38.7c-0.4-0.1-0.7-0.2-1.1-0.4
-        c0.2,0.8,0.5,1.4,0.7,2c0,0,0.1,0,0.1,0C11.6,39.8,11.7,39.3,11.8,38.7z M45.9,27.8c0,0-0.1,0-0.1,0c0,0.3-0.1,0.6-0.1,0.9
-        c-0.1,0.9-0.1,0.9,0.7,1.2c0,0,0.1,0,0.2-0.1C46.3,29.2,46.1,28.5,45.9,27.8z"/>
-      <path d="M43.2,7.1c0,0.1-0.1,0.3-0.1,0.4c-0.8,1.8-1.6,3.5-2.4,5.3c-0.2,0.5-0.7,0.8-1.3,0.8c-0.6,0-1-0.3-1.1-0.9
-        c-0.1-0.3,0-0.7,0.1-1c0.8-1.8,1.6-3.5,2.5-5.3c0.3-0.6,0.8-0.9,1.5-0.7C42.9,6,43.2,6.4,43.2,7.1z"/>
-      <path d="M52.6,15.1c0.7,0,1.1,0.3,1.3,0.8c0.2,0.5,0,1.1-0.5,1.4c-1.3,0.8-2.6,1.6-3.9,2.5c-0.4,0.2-0.7,0.5-1.1,0.7
-        c-0.6,0.3-1.3,0.2-1.7-0.4c-0.4-0.6-0.2-1.3,0.4-1.7c1.7-1.1,3.4-2.1,5.1-3.2C52.3,15.1,52.5,15.1,52.6,15.1z"/>
-      <path d="M18.8,12.3c0,0.7-0.4,1.2-0.9,1.3c-0.6,0.2-1.2,0-1.4-0.5c-0.9-1.9-1.8-3.8-2.6-5.7c-0.3-0.6,0.1-1.2,0.6-1.5
-        C15,5.6,15.7,5.8,16,6.3c0.2,0.3,0.3,0.6,0.5,0.9c0.7,1.4,1.4,2.9,2,4.4C18.6,11.8,18.7,12.1,18.8,12.3z"/>
-      <path d="M8.9,20.7c-0.1,0-0.4-0.1-0.6-0.3c-1.6-1-3.2-2-4.8-3C2.8,17,2.6,16.2,3,15.6c0.4-0.6,1.1-0.7,1.8-0.3c1.6,1,3.2,2,4.8,3
-        c0.6,0.4,0.8,0.9,0.6,1.5C10.1,20.3,9.6,20.7,8.9,20.7z"/>
-      <path d="M29.7,6.9c0,1,0,1.9,0,2.9c0,0.8-0.5,1.3-1.2,1.3c-0.7,0-1.2-0.5-1.2-1.3c0-1.9,0-3.9,0-5.8c0-0.8,0.5-1.3,1.2-1.3
-        c0.7,0,1.2,0.5,1.2,1.3C29.7,4.9,29.7,5.9,29.7,6.9z"/>
-    </g>
-  </g>
-  </svg>
-  <span>Welcome</span></div>
-  </div>
-  <div class="col-right-welcome">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y=" 0px"
-       viewBox="0 0 85 85" enable-background="new 0 0 85 85" xml:space="preserve">
-      <path fill="#E3E3E2" d="M42.5,75.1l-6.2-29.2H23.4l0.8-1.8c0.5-1.2,4.7-10.9,9.7-12.4V18.3c-2.3-0.8-5.5-3.1-6-8.1l-0.1-1.4h29.5
-        l-0.1,1.4c-0.5,5-3.7,7.3-6,8.1v13.4c5,1.5,9.2,11.2,9.7,12.4l0.8,1.8H48.7L42.5,75.1z M27.4,43.3h11l4.1,19.3l4.1-19.3h11
-        c-2.1-4.3-5.4-9.2-7.8-9.2h-1.3V16.2l1.1-0.2c0.2,0,3.6-0.7,4.7-4.7H30.7c1.1,4.1,4.6,4.7,4.7,4.7l1.1,0.2v17.9h-1.3
-        C32.8,34.1,29.5,39,27.4,43.3z"/>
-    </svg>
-
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-         viewBox="0 0 85 85" enable-background="new 0 0 85 85" xml:space="preserve">
-      <g>
-        <circle fill="#E3E2E2" cx="42.5" cy="29.8" r="10.4"/>
-        <path fill="#E3E2E2" d="M63,63.8c0-11.2-9.1-20.3-20.3-20.3s-20.3,9.1-20.3,20.3c0,0,15,9.7,20.3,9.3C47.9,72.7,60.7,68,63,63.8"/>
-        <path fill="#E2E1E1" d="M42.7,73.1c-17.3,0-31.4-14.1-31.4-31.4c0-17.3,14.1-31.4,31.4-31.4s31.4,14.1,31.4,31.4
-          C74.1,59,60,73.1,42.7,73.1z M42.7,12.9c-15.9,0-28.8,12.9-28.8,28.8c0,15.9,12.9,28.8,28.8,28.8s28.8-12.9,28.8-28.8
-          C71.5,25.8,58.6,12.9,42.7,12.9z"/>
-      </g>
-    </svg>
-
-    <span class="username">Angela Schmidt</span>
-
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-       viewBox="0 0 85 85" enable-background="new 0 0 85 85" xml:space="preserve">
-    <g>
-      <path fill="#E3E3E2" d="M42.3,74.1C25,74.1,10.8,60,10.8,42.6c0-17.4,14.1-31.5,31.5-31.5s31.5,14.1,31.5,31.5
-        C73.8,60,59.7,74.1,42.3,74.1z M42.3,13.6c-16,0-29,13-29,29c0,16,13,29,29,29s29-13,29-29C71.3,26.6,58.3,13.6,42.3,13.6z"/>
-      <g>
-        <g>
-          <path fill="#E3E3E2" d="M39.8,48l-0.1-1.1c-0.2-2.2,0.5-4.6,2.5-7.1c1.8-2.2,2.9-3.8,2.9-5.6c0-2.1-1.3-3.5-3.9-3.5
-            c-1.5,0-3.1,0.5-4.1,1.3l-1-2.6c1.3-1,3.7-1.6,5.8-1.6c4.7,0,6.8,2.9,6.8,6c0,2.8-1.5,4.8-3.5,7.1c-1.8,2.1-2.4,3.9-2.3,6l0,1.1
-            H39.8z M38.9,53.7c0-1.5,1-2.6,2.4-2.6s2.4,1.1,2.4,2.6c0,1.4-0.9,2.5-2.4,2.5C39.9,56.2,38.9,55.1,38.9,53.7z"/>
-        </g>
-      </g>
-    </g>
-    </svg>
-  </div>
-</div>
-
-<div class="welcome-container">
-
-  <header>
-<!--     <div class="mobile-menu">
-      
-    </div> -->
-    <div class="left">
-      <svg class="wah-toolbar-center" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve"> <g> <path fill="#0B9BDB" d="M12,1C5.9,1,1,5.9,1,12s4.9,11,11,11s11-4.9,11-11S18.1,1,12,1z M12,21c-5,0-9-4-9-9s4-9,9-9s9,4,9,9 S17,21,12,21z"></path> <rect x="23.9" y="21.1" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 62.7698 26.0001)" fill="#0B9BDB" width="4.2" height="9.9"></rect> <circle fill="#0B9BDB" cx="21" cy="21" r="1"></circle> </g> </svg>
-      <input type="text" class="left-search" ng-model="assetSearch" placeholder="Type in keywords to find assets">
-    </div>
-    <div class="divider"></div>
-    <div class="center">
-      <svg class="add-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve"> <path fill="#0B9BDB" d="M16,3c7.2,0,13,5.8,13,13s-5.8,13-13,13S3,23.2,3,16S8.8,3,16,3 M16,1C7.7,1,1,7.7,1,16s6.7,15,15,15 s15-6.7,15-15S24.3,1,16,1L16,1z"></path> <polygon fill="#0B9BDB" points="23,15 17,15 17,9 15,9 15,15 9,15 9,17 15,17 15,23 17,23 17,17 23,17 "></polygon> </svg>
-      <span class="add">Add</span>
-    </div>
-    <div class="divider"></div>
-    <div class="right">
-      <svg class="filter-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve"> <path fill="#0B9BDB" d="M1,1v4l12,12v14l6-6v-1v-2.4V17L31,5V1H1z M17,16.2v8l-2,2v-10L3.8,5h24.3L17,16.2z"></path> </svg>
-      <span class="filter">Filter</span>
-      <svg class="sort-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve"> <g> <rect x="1" y="8" fill="#0B9BDB" width="18" height="2"></rect> <rect x="1" y="15" fill="#0B9BDB" width="14" height="2"></rect> <rect x="1" y="22" fill="#0B9BDB" width="10" height="2"></rect> <polygon fill="#0B9BDB" points="30,20 23,27 23,1 21,1 21,27 14,20 13,22 22,31 31,22     "></polygon> </g> </svg>
-      <span class="sort">Sort</span>
-    </div>
-  </header>
-<div class="welcome-graphic">   
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   viewBox="0 0 1440 462" enable-background="new 0 0 1440 462" xml:space="preserve">
+	 viewBox="0 0 1440 462" enable-background="new 0 0 1440 462" xml:space="preserve">
 <g id="Layer_1" display="none">
-  
-    <image display="inline" overflow="visible" opacity="0.5" width="2880" height="2435" xlink:href="data:image/jpeg;base64,/9j/4RcMRXhpZgAATU0AKgAAAAgADgEAAAMAAAABC0AAAAEBAAMAAAABBoIAAAECAAMAAAAEAAAA
+	
+		<image display="inline" overflow="visible" opacity="0.5" width="2880" height="2435" xlink:href="data:image/jpeg;base64,/9j/4RcMRXhpZgAATU0AKgAAAAgADgEAAAMAAAABC0AAAAEBAAMAAAABBoIAAAECAAMAAAAEAAAA
 tgEDAAMAAAABAAUAAAEGAAMAAAABAAIAAAESAAMAAAABAAEAAAEVAAMAAAABAAQAAAEaAAUAAAAB
 AAAAvgEbAAUAAAABAAAAxgEcAAMAAAABAAEAAAEoAAMAAAABAAIAAAExAAIAAAAkAAAAzgEyAAIA
 AAAUAAAA8odpAAQAAAABAAABCAAAATQACAAIAAgACAAV+QAAACcQABX5AAAAJxBBZG9iZSBQaG90
@@ -33420,16 +33287,16 @@ uvde9+691737r3Xvfuvde9+691737r3Xvfuvde9+691737r3Xvfuvde9+691737r3Xvfuvde9+69
 fuvde9+691737r3XvfuvdFol/wCLvl/+1nkP/ct/fuvdOifT/Y/8R7917rn7917r3v3Xuve/de69
 7917r3v3Xuve/de697917r3v3Xuve/de697917r3v3Xuve/de697917r3v3Xuve/de697917r3v3
 Xuve/de697917r3v3Xuve/de697917r3v3Xuve/de6//2Q==" transform="matrix(0.5 0 0 0.5 0 -91.5287)">
-  </image>
+	</image>
 </g>
 <g id="Layer_2">
-  <rect y="0" fill="#7F7F7F" width="575.9" height="462"/>
-  <rect x="575.9" y="0" fill="#2488BB" width="318.8" height="462"/>
-  <rect x="894.6" y="0" fill="#61A038" width="545.4" height="231"/>
-  <rect x="894.6" y="231" fill="#9C5086" width="545.4" height="231"/>
-  <g id="_x38_7KgsT_1_">
-    
-      <image overflow="visible" width="572" height="459" id="_x38_7KgsT" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+	<rect y="0" fill="#7F7F7F" width="575.9" height="462"/>
+	<rect x="575.9" y="0" fill="#2488BB" width="318.8" height="462"/>
+	<rect x="894.6" y="0" fill="#61A038" width="545.4" height="231"/>
+	<rect x="894.6" y="231" fill="#9C5086" width="545.4" height="231"/>
+	<g id="_x38_7KgsT_1_">
+		
+			<image overflow="visible" width="572" height="459" id="_x38_7KgsT" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
 EAMCAwYAAAkdAAAQxgAAE/3/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
 Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
 JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAc8CQAMBIgACEQEDEQH/
@@ -33519,67 +33386,57 @@ jMXVxmLq4yF1cZC6uMhdXGQurjIXVxkLq4yF1cZC6uMhdXGQurjIXVxkLq4yF1cZC6uMhdXGQurj
 IXVxkLq4yF1cZC6uMhdXGQurjIXVxmLq4zF1cZi6uMxdXGYurjMXVxmLq4zF1cZi6uMxdXGYurjM
 XVxmLq4zF1cZi6uMxdXGQurjIXVxkLq4yF1cZC6uMhdXGQurjIXVxkLq4yF1cZC6uMhdXGQurjIX
 VxkLq4yF1cZC6uMhdXGQurjIXVxkLq4yF1cZC6uMhdXGQurjMXQ/yN6fmLr/2Q==" transform="matrix(1.0064 0 0 1.0064 0 0)">
-    </image>
-  </g>
+		</image>
+	</g>
 </g>
 <g id="Layer_3">
-  <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="707.1,34.6 823.3,34.6 823.3,152.1  "/>
-  <circle fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" cx="734.9" cy="125.1" r="57.3"/>
-  <circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" cx="765.2" cy="103.4" r="18.3"/>
-  <circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" cx="705" cy="156.2" r="5.1"/>
-  <polyline fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" points="650.1,156.2 650.1,211.1 691.7,211.1  "/>
-  <text transform="matrix(1 0 0 1 600.4671 321.8507)" fill="#FCFCFC" font-family="'MyriadPro-Semibold'" font-size="30">Explore</text>
-  <text transform="matrix(1 0 0 1 600.4669 360.6024)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">Explore powerful visualizations of your</tspan><tspan x="0" y="19.2" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">data and discover patterns and</tspan><tspan x="0" y="38.4" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">relationships that impact your </tspan><tspan x="0" y="57.6" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">business.</tspan></text>
-  <text transform="matrix(1 0 0 1 919.7191 49.6389)" fill="#FCFCFC" font-family="'MyriadPro-Semibold'" font-size="30">Predict</text>
-  <text transform="matrix(1 0 0 1 919.7189 88.3906)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">Find predictive insights hidden in your</tspan><tspan x="0" y="19.2" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">data. Learn what drives each behaviour</tspan><tspan x="0" y="38.4" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">and outcome - and take your next steps</tspan><tspan x="0" y="57.6" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">with confidence.</tspan></text>
-  <text transform="matrix(1 0 0 1 1288.6438 321.8508)" fill="#FCFCFC" font-family="'MyriadPro-Semibold'" font-size="30">Assemble</text>
-  <text transform="matrix(1 0 0 1 1140.198 360.6025)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">Create interactive dashboards to monitor</tspan><tspan x="30.1" y="19.2" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">key details, and infographics that tell</tspan><tspan x="82.6" y="38.4" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">persuasive stories. Share and</tspan><tspan x="116.5" y="57.6" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">collaborate with others.</tspan></text>
-  <circle fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="1327.1" cy="114.5" r="82.2"/>
-  <circle fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="1326.4" cy="115.8" r="53.7"/>
-  <circle fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" cx="1325.8" cy="115" r="24.6"/>
-  <circle fill="#FFFFFF" cx="1270.9" cy="62.9" r="13.3"/>
-  <circle fill="#FFFFFF" cx="1366.8" cy="82.3" r="13.3"/>
-  <circle fill="#FFFFFF" cx="1357.3" cy="160.4" r="13.3"/>
-  <line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="1270.9" y1="64.9" x2="1305.9" y2="97.6"/>
-  <line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="1345.6" y1="100.5" x2="1362.1" y2="88.4"/>
-  <line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="1340.2" y1="134.8" x2="1350.4" y2="149.1"/>
-  <rect x="924.3" y="270.3" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="108.8" height="85.3"/>
-  <rect x="1045.1" y="270.3" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="52.4" height="38.3"/>
-  <rect x="1045.1" y="317.3" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="52.4" height="38.3"/>
-  <rect x="924.3" y="370" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="173.2" height="50"/>
-  <circle fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="959.8" cy="305.9" r="35.6"/>
-  <circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" cx="1014.2" cy="336.7" r="8"/>
-  <rect x="84.6" y="371" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="183.2" height="47.1"/>
-  <text transform="matrix(1 0 0 1 334.6464 401.7813)" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="24">Play Video</text>
-  <text transform="matrix(1 0 0 1 84.4709 299.7646)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="35">SOCIAL MEDIA ANALYTICS</tspan><tspan x="-0.3" y="40.8" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="34">UPGRADE NOW AVAILABLE</tspan></text>
-  <rect x="293.2" y="371" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="192" height="47.4"/>
-  <text transform="matrix(1 0 0 1 120.4897 401.7815)" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="24">Read More</text>
-  <g>
-    <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M361.2,140.4c-4.2,0-7.8,2.4-9.5,5.8l-49.3-8.4
-      c-0.2-1.1-0.4-2.2-0.8-3.2l40.3-20c3,3.1,7.8,4,11.8,1.9c4.9-2.6,6.8-8.7,4.2-13.6c-2.6-4.9-8.6-6.8-13.6-4.2
-      c-3.9,2-5.8,6.2-5.2,10.3L298.6,129c-0.9-1.1-1.9-2.2-3-3.1l33.5-46.8c1.7,0.2,3.4,0,5-0.7c5.1-2.1,7.5-8,5.4-13.1
-      c-2.1-5.1-8-7.5-13.1-5.4c-5.1,2.1-7.5,8-5.4,13.1c0.6,1.3,1.4,2.5,2.4,3.4l-33.3,46.3c-0.9-0.3-1.9-0.6-2.9-0.8l-2.1-34.9
-      c3.5-1.5,6-4.9,6-9c0-5.4-4.4-9.8-9.8-9.8c-5.4,0-9.8,4.4-9.8,9.8c0,4.5,3.1,8.3,7.2,9.4l2.1,34.4c-1.2,0.2-2.4,0.5-3.5,0.9
-      l-36.6-46.9c1.5-2,2.3-4.5,2.3-7.1c0-6.7-5.5-12.2-12.2-12.2c-6.7,0-12.2,5.5-12.2,12.2S224.2,81,230.9,81c1.8,0,3.5-0.4,5-1.1
-      l36,46c-1.9,1.6-3.5,3.5-4.7,5.6l-33-11.4c0-0.2,0.1-0.3,0.1-0.5c0-5.7-4.6-10.4-10.4-10.4c-5.7,0-10.4,4.6-10.4,10.4
-      c0,5.7,4.6,10.4,10.4,10.4c3.3,0,6.2-1.6,8.1-4l33.2,11.5c-0.2,1-0.3,2-0.3,3.1c0,0.1,0,0.3,0,0.4l-47.8,15.5
-      c-1.8-2.8-4.9-4.8-8.5-4.8c-5.5,0-10,4.5-10,10c0,5.5,4.5,10,10,10c5.3,0,9.5-4.1,10-9.2l47.5-15.5c1,2.6,2.5,5,4.5,6.9
-      l-20.5,29.9c-4.5-1.2-9.3,1.4-10.6,5.9c-1.4,4.6,1.2,9.6,5.8,11c4.6,1.4,9.6-1.2,11-5.8c0.8-2.6,0.3-5.3-1.1-7.4l20.6-30
-      c2.4,1.1,5.1,1.8,7.9,1.8c0.4,0,0.7,0,1.1-0.1l4.2,41.2c-4.8,1.6-8.2,6.2-8.2,11.5c0,6.7,5.5,12.2,12.2,12.2
-      c6.7,0,12.2-5.5,12.2-12.2c0-6-4.3-10.9-10-12l-4.1-42.2c2.5-1.1,4.7-2.6,6.5-4.6l29.2,30.4c-0.9,1.5-1.5,3.2-1.5,5.1
-      c0,5.4,4.4,9.8,9.8,9.8s9.8-4.4,9.8-9.8c0-5.4-4.4-9.8-9.8-9.8c-1.1,0-2.1,0.2-3.1,0.5c-0.1-0.1-0.2,0-0.5,0.2L301.1,148
-      c0.5-1.2,0.9-2.5,1.2-3.9l48.2,8.2c0.6,5.4,5.1,9.6,10.7,9.6c5.9,0,10.8-4.8,10.8-10.8C371.9,145.2,367.1,140.4,361.2,140.4z"/>
-    <circle fill="#FFFFFF" cx="283.4" cy="140.8" r="19.6"/>
-  </g>
+	<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="707.1,34.6 823.3,34.6 823.3,152.1 	"/>
+	<circle fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" cx="734.9" cy="125.1" r="57.3"/>
+	<circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" cx="765.2" cy="103.4" r="18.3"/>
+	<circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" cx="705" cy="156.2" r="5.1"/>
+	<polyline fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" points="650.1,156.2 650.1,211.1 691.7,211.1 	"/>
+	<text transform="matrix(1 0 0 1 600.4671 321.8507)" fill="#FCFCFC" font-family="'MyriadPro-Semibold'" font-size="30">Explore</text>
+	<text transform="matrix(1 0 0 1 600.4669 360.6024)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">Explore powerful visualizations of your</tspan><tspan x="0" y="19.2" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">data and discover patterns and</tspan><tspan x="0" y="38.4" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">relationships that impact your </tspan><tspan x="0" y="57.6" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">business.</tspan></text>
+	<text transform="matrix(1 0 0 1 919.7191 49.6389)" fill="#FCFCFC" font-family="'MyriadPro-Semibold'" font-size="30">Predict</text>
+	<text transform="matrix(1 0 0 1 919.7189 88.3906)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">Find predictive insights hidden in your</tspan><tspan x="0" y="19.2" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">data. Learn what drives each behaviour</tspan><tspan x="0" y="38.4" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">and outcome - and take your next steps</tspan><tspan x="0" y="57.6" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">with confidence.</tspan></text>
+	<text transform="matrix(1 0 0 1 1288.6438 321.8508)" fill="#FCFCFC" font-family="'MyriadPro-Semibold'" font-size="30">Assemble</text>
+	<text transform="matrix(1 0 0 1 1140.198 360.6025)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">Create interactive dashboards to monitor</tspan><tspan x="30.1" y="19.2" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">key details, and infographics that tell</tspan><tspan x="82.6" y="38.4" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">persuasive stories. Share and</tspan><tspan x="116.5" y="57.6" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="16">collaborate with others.</tspan></text>
+	<circle fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="1327.1" cy="114.5" r="82.2"/>
+	<circle fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" cx="1326.4" cy="115.8" r="53.7"/>
+	<circle fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" cx="1325.8" cy="115" r="24.6"/>
+	<circle fill="#FFFFFF" cx="1270.9" cy="62.9" r="13.3"/>
+	<circle fill="#FFFFFF" cx="1366.8" cy="82.3" r="13.3"/>
+	<circle fill="#FFFFFF" cx="1357.3" cy="160.4" r="13.3"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="1270.9" y1="64.9" x2="1305.9" y2="97.6"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="1345.6" y1="100.5" x2="1362.1" y2="88.4"/>
+	<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="1340.2" y1="134.8" x2="1350.4" y2="149.1"/>
+	<rect x="924.3" y="270.3" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="108.8" height="85.3"/>
+	<rect x="1045.1" y="270.3" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="52.4" height="38.3"/>
+	<rect x="1045.1" y="317.3" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="52.4" height="38.3"/>
+	<rect x="924.3" y="370" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="173.2" height="50"/>
+	<circle fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="959.8" cy="305.9" r="35.6"/>
+	<circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" cx="1014.2" cy="336.7" r="8"/>
+	<rect x="84.6" y="371" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="183.2" height="47.1"/>
+	<text transform="matrix(1 0 0 1 334.6464 401.7813)" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="24">Play Video</text>
+	<text transform="matrix(1 0 0 1 84.4709 299.7646)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="35">SOCIAL MEDIA ANALYTICS</tspan><tspan x="-0.3" y="40.8" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="34">UPGRADE NOW AVAILABLE</tspan></text>
+	<rect x="293.2" y="371" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="192" height="47.4"/>
+	<text transform="matrix(1 0 0 1 120.4897 401.7815)" fill="#FFFFFF" font-family="'MyriadPro-Semibold'" font-size="24">Read More</text>
+	<g>
+		<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M361.2,140.4c-4.2,0-7.8,2.4-9.5,5.8l-49.3-8.4
+			c-0.2-1.1-0.4-2.2-0.8-3.2l40.3-20c3,3.1,7.8,4,11.8,1.9c4.9-2.6,6.8-8.7,4.2-13.6c-2.6-4.9-8.6-6.8-13.6-4.2
+			c-3.9,2-5.8,6.2-5.2,10.3L298.6,129c-0.9-1.1-1.9-2.2-3-3.1l33.5-46.8c1.7,0.2,3.4,0,5-0.7c5.1-2.1,7.5-8,5.4-13.1
+			c-2.1-5.1-8-7.5-13.1-5.4c-5.1,2.1-7.5,8-5.4,13.1c0.6,1.3,1.4,2.5,2.4,3.4l-33.3,46.3c-0.9-0.3-1.9-0.6-2.9-0.8l-2.1-34.9
+			c3.5-1.5,6-4.9,6-9c0-5.4-4.4-9.8-9.8-9.8c-5.4,0-9.8,4.4-9.8,9.8c0,4.5,3.1,8.3,7.2,9.4l2.1,34.4c-1.2,0.2-2.4,0.5-3.5,0.9
+			l-36.6-46.9c1.5-2,2.3-4.5,2.3-7.1c0-6.7-5.5-12.2-12.2-12.2c-6.7,0-12.2,5.5-12.2,12.2S224.2,81,230.9,81c1.8,0,3.5-0.4,5-1.1
+			l36,46c-1.9,1.6-3.5,3.5-4.7,5.6l-33-11.4c0-0.2,0.1-0.3,0.1-0.5c0-5.7-4.6-10.4-10.4-10.4c-5.7,0-10.4,4.6-10.4,10.4
+			c0,5.7,4.6,10.4,10.4,10.4c3.3,0,6.2-1.6,8.1-4l33.2,11.5c-0.2,1-0.3,2-0.3,3.1c0,0.1,0,0.3,0,0.4l-47.8,15.5
+			c-1.8-2.8-4.9-4.8-8.5-4.8c-5.5,0-10,4.5-10,10c0,5.5,4.5,10,10,10c5.3,0,9.5-4.1,10-9.2l47.5-15.5c1,2.6,2.5,5,4.5,6.9
+			l-20.5,29.9c-4.5-1.2-9.3,1.4-10.6,5.9c-1.4,4.6,1.2,9.6,5.8,11c4.6,1.4,9.6-1.2,11-5.8c0.8-2.6,0.3-5.3-1.1-7.4l20.6-30
+			c2.4,1.1,5.1,1.8,7.9,1.8c0.4,0,0.7,0,1.1-0.1l4.2,41.2c-4.8,1.6-8.2,6.2-8.2,11.5c0,6.7,5.5,12.2,12.2,12.2
+			c6.7,0,12.2-5.5,12.2-12.2c0-6-4.3-10.9-10-12l-4.1-42.2c2.5-1.1,4.7-2.6,6.5-4.6l29.2,30.4c-0.9,1.5-1.5,3.2-1.5,5.1
+			c0,5.4,4.4,9.8,9.8,9.8s9.8-4.4,9.8-9.8c0-5.4-4.4-9.8-9.8-9.8c-1.1,0-2.1,0.2-3.1,0.5c-0.1-0.1-0.2,0-0.5,0.2L301.1,148
+			c0.5-1.2,0.9-2.5,1.2-3.9l48.2,8.2c0.6,5.4,5.1,9.6,10.7,9.6c5.9,0,10.8-4.8,10.8-10.8C371.9,145.2,367.1,140.4,361.2,140.4z"/>
+		<circle fill="#FFFFFF" cx="283.4" cy="140.8" r="19.6"/>
+	</g>
 </g>
 </svg>
-
-</div>
-  <div class="welcome-main">
-
-    <div class="welcome-box-container">
-
-      <assetcard ng-repeat="asset in assets | filter:assetSearch"></assetcard>
-    </div>
-  </div>
-</div>
