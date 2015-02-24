@@ -43,6 +43,18 @@ span.three-bar {
 	z-index: 100;
 }
 
+.upgrade-bar svg {
+	height: 45px;
+	margin: 3px;
+	// float: right;
+	right: 10%;
+}
+
+.upgrade-bar p {
+	right: 3%;
+	color: #DDDDDD;
+}
+
 .insight-bar{
 	background: color('gray', 20);
 	box-shadow: 0 0 6px 1px color('gray', 20);

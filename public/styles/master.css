@@ -274,6 +274,15 @@ span.three-bar {
   background: #4F7B34;
   z-index: 100; }
 
+.upgrade-bar svg {
+  height: 45px;
+  margin: 3px;
+  right: 10%; }
+
+.upgrade-bar p {
+  right: 3%;
+  color: #DDDDDD; }
+
 .insight-bar {
   background: #C7C7C7;
   box-shadow: 0 0 6px 1px #C7C7C7;
