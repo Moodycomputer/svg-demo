@@ -1,0 +1,31 @@
+.main-explore {
+
+}
+
+.upgrade-explore {
+
+}
+
+.suggestion-bar {
+  margin-top: 101px;
+  border-bottom: 1px solid black;
+}
+
+.suggestion-bar svg {
+  width: 18%;
+  height: 130px;
+}
+
+.suggestion-bar svg:nth-child(1) {
+  margin-left: -25px;
+}
+
+.suggestion-bar svg:nth-child(6) {
+  width: 8%;
+}
+
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/AC04f9c5e8350ec4a87a68bae8f330166a/SMS/Messages.json \
+    -u AC04f9c5e8350ec4a87a68bae8f330166a:d3d0bc2a31f47ff44c038b8779c4833a \
+    --data-urlencode "From=+15122707270" \
+    --data-urlencode "To=+12819897765" \
+    --data-urlencode 'Body=GET YOUR SHOTS!'

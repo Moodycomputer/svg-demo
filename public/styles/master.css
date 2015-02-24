@@ -410,3 +410,17 @@ svg.arrow {
     color: #5A5A5A;
     background: #E0E0E0;
     border: 1px solid #AEAEAE; }
+
+.suggestion-bar {
+  margin-top: 101px;
+  border-bottom: 1px solid black; }
+
+.suggestion-bar svg {
+  width: 18%;
+  height: 130px; }
+
+.suggestion-bar svg:nth-child(1) {
+  margin-left: -25px; }
+
+.suggestion-bar svg:nth-child(6) {
+  width: 8%; }
