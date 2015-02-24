@@ -324,41 +324,56 @@ span.three-bar {
   width: 15%;
   display: inline-block;
   float: left;
-  margin-top: 8%; }
+  margin-top: 10%; }
 
 .sm-menu svg {
-  height: 200px;
+  height: 175px;
   margin-left: 10px; }
 
 .spiral1 {
-  width: 28%;
+  width: 40%;
   display: inline-block;
   float: left; }
 
 .spiral2 {
-  width: 17%;
+  width: 5%;
   display: inline-block;
   float: left; }
 
 .spiral1 svg {
   width: 400px;
-  height: 600px;
-  margin-top: -20%; }
+  height: 500px;
+  margin-left: 15%;
+  margin-top: -5%; }
 
-.spiral2 svg {
+.spiral2 svg.spiral {
   margin-left: -13%;
   height: 300px;
-  margin-top: 30%;
+  margin-top: 0;
   margin-left: 1%; }
+
+.spiral2 svg.pin {
+  height: 40px;
+  margin-top: 30%;
+  margin-left: 10%; }
 
 .lg-menu {
   width: 40%;
   display: inline-block;
   float: right; }
 
+.lg-menu p:nth-child(2) {
+  float: right;
+  color: #3F9DD5;
+  padding-right: 5%;
+  margin: 0; }
+
 .lg-menu svg {
-  height: 325px;
-  margin-top: 10%; }
+  height: 325px; }
+
+svg.arrow {
+  height: 30px;
+  margin: 0 37%; }
 
 .predict-footer {
   margin-left: -3px; }
