@@ -8,6 +8,11 @@ pointy.config(['$routeProvider', function($routeProvider) {
 				return 'views/'+ $routeParams.file +'.html'
 			},
 			controller: 'pointyController'
+		}).when('/sma', {
+			templateUrl: function($routeParams){
+				return 'views/sma.html'
+			},
+			controller: 'smaController'
 		}).otherwise({
 			templateUrl: 'views/welcome.html',
 			controller: 'pointyController'
@@ -78,6 +83,55 @@ components.directive('assetcard', function(){
 });
 
 
+// SMA COntroller
+pointy.controller('smaController', ['$scope', function($scope) {
+
+	$scope.smaView = 'languages';
+
+
+	$scope.setView = function(view){
+		return $scope.smaView = view;
+	}
+
+	//Sources
+	$scope.sources = data.sources;
+
+	$scope.selectSource = function(source){
+		source.source.chosen = true;
+	}
+	$scope.deselectSource = function(source){
+		source.source.chosen = false;
+	}
+
+
+	//Keywords
+	$scope.keywords = data.keywords;
+	$scope.suggestedKeywords = data.suggestedKeywords;
+
+	$scope.addKeywords = function(){
+		var newArray = [];
+
+		angular.forEach($scope.newKeywords, function(d, i) {
+			newArray.push({text: d, source: 'user'});
+		});
+
+		$scope.keywords = newArray.concat($scope.keywords);
+		$scope.newKeywords = "";
+	}
+
+	$scope.deleteKeyword = function(word){
+		$scope.keywords.splice(word.$index, 1);
+	}
+
+	$scope.chooseKeyword = function(word){
+		$scope.keywords.unshift(word);
+		$scope.suggestedKeywords.splice(word.$index, 1);
+	}
+
+}]);
+
+
+
 var data = {};
 
 data.insights = [
@@ -110,4 +164,26 @@ data.assets = [
 	{title: "Pi", desc: 'Description'},
 	{title: "Rho", desc: 'Description'},
 	{title: "Sigma", desc: 'Description'}
+];
+
+
+data.sources = [
+	{title: 'Twitter', image: '', chosen: true},
+	{title: 'Facebook', image: '', chosen: true},
+	{title: 'Snapchat', image: '', chosen: true},
+	{title: 'Foo', image: '', chosen: true},
+	{title: 'Bar', image: '', chosen: false}
+]
+
+
+
+data.keywords = [
+	{text: "Alpha", source: 'user'}, 
+	{text: "Beta", source: 'user'}, 
+	{text: "Gamma", source: 'user'},
+]
+data.suggestedKeywords = [
+	{text: "Kappa", source: 'watson'}, 
+	{text: "Phi", source: 'watson'}, 
+	{text: "Delta", source: 'watson'},
 ]
