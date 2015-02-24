@@ -286,7 +286,8 @@ span.three-bar {
   margin: 1px;
   padding: 1em;
   background: #FFFFFF;
-  color: #5A5A5A; }
+  color: #5A5A5A;
+  height: 140px; }
 
 .insight-title {
   font-size: 1em;
@@ -319,16 +320,58 @@ span.three-bar {
   clear: both;
   padding-top: 10px; }
 
+.sm-menu {
+  width: 15%;
+  display: inline-block;
+  float: left;
+  margin-top: 8%; }
+
+.sm-menu svg {
+  height: 200px;
+  margin-left: 10px; }
+
+.spiral1 {
+  width: 28%;
+  display: inline-block;
+  float: left; }
+
+.spiral2 {
+  width: 17%;
+  display: inline-block;
+  float: left; }
+
+.spiral1 svg {
+  width: 400px;
+  height: 600px;
+  margin-top: -20%; }
+
+.spiral2 svg {
+  margin-left: -13%;
+  height: 300px;
+  margin-top: 30%;
+  margin-left: 1%; }
+
+.lg-menu {
+  width: 40%;
+  display: inline-block;
+  float: right; }
+
+.lg-menu svg {
+  height: 325px;
+  margin-top: 10%; }
+
 .predict-footer {
   margin-left: -3px; }
 
 .predict-footer svg {
-  width: 100%; }
+  width: 100%;
+  position: fixed;
+  bottom: 0; }
 
 .viz-main {
   flex: 1; }
 
-.viz-main p {
+.viz-main h3 {
   text-align: center; }
 
 .viz-select {
