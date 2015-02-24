@@ -1,0 +1,140 @@
+<div class="sma-wrapper" ng-controller="smaController">
+
+<nav class="sma-nav">
+	<ul>
+		<li ng-click="setView('sources')">Media Sources</li>
+		<li ng-click="setView('dates')">Dates</li>
+		<li ng-click="setView('languages')">Languages</li>
+		<li ng-click="setView('keywords')" class="curr">Keywords</li>
+		<li ng-click="setView('exclusions')">Exclusions</li>
+		<hr>
+		<li ng-click="setView('overview')">Overview</li>
+	</ul>
+</nav>
+
+
+
+<section class="sma-main">
+
+
+	<section class="sma-container">
+
+		<div class="sma-workspace">
+			<h2 class="ws-title">Media Sources</h2>
+			<p class="ws-subtitle">Enrich MeaslesDisneySpread.csv with data from these sources</p>
+	
+			<div class="source-card" ng-repeat="source in sources | filter:!chosen" ng-click="deselectSource(this)">
+				<div class="source-icon"></div>
+				<p class="source-name">{{source.title }}</p>
+			</div>
+
+		</div>
+
+
+		<section class="sma-toolbar">
+
+			<div class="source-card" ng-repeat="source in sources | filter:chosen == false" ng-click="selectSource(this)">
+				<div class="source-icon"></div>
+				<p class="source-name">{{source.title }}</p>
+			</div>
+
+		</section>
+
+	</section>
+
+
+
+	<section class="sma-container">
+
+		<div class="sma-workspace">
+			<h2 class="ws-title">Dates</h2>
+			<p class="ws-subtitle">Search social media</p>
+		</div>
+
+		<section class="sma-toolbar">
+		</section>
+
+	</section>
+
+
+
+
+	<section class="sma-container">
+
+		<div class="sma-workspace">
+			<h2 class="ws-title">Languages</h2>
+			<p class="ws-subtitle">Limit search to these languages</p>
+
+			<span class="tag">English</span>
+			<span class="tag">Armenian</span>
+			<span class="tag">French</span>
+			<span class="tag">Pirate</span>
+
+		</div>
+
+		<section class="sma-toolbar">
+			<h3 class="toolbar-header">Add Languages</h3>
+			<span class="tag">English</span>
+			<span class="tag">Armenian</span>
+			<span class="tag">French</span>
+			<span class="tag">Pirate</span>
+		</section>
+
+	</section>
+
+
+
+	<!-- <section class="sma-container" ng-switch-when="keywords"> -->
+	<section class="sma-container">
+		
+		<div class="sma-workspace">
+			<h2 class="ws-title">Keywords</h2>
+			<p class="ws-subtitle">Search using keywords to help augment Social Meida data. Fine tun your results by choosing and adding terms that work best for your query.</p>
+			<form class="addForm" ng-submit="addKeywords()">
+				<input id="keywordAdder" type="text" ng-model="newKeywords" ng-list>
+				<button type="submit">Submit</button>
+			</form>
+			<span ng-repeat="keyword in keywords" ng-click="deleteKeyword(this)" class="tag {{keyword.source}}">{{keyword.text}}</span>
+		</div>
+
+		<section class="sma-toolbar">
+			<h3 class="toolbar-header">Suggestions</h3>
+			<span class="tag" ng-repeat="keyword in suggestedKeywords" ng-click="chooseKeyword(keyword)">{{keyword.text}}</span>
+		</section>
+
+	</section>
+
+
+
+	<!-- <section class="sma-container" ng-switch-when="exclusions"> -->
+	<section class="sma-container">
+		
+		<div class="sma-workspace">
+			<h2 class="ws-title">Exclusions</h2>
+			<p class="ws-subtitle">Exclude these words and hashtags from search</p>
+		</div>
+
+		<section class="sma-toolbar">
+		</section>
+
+	</section>
+
+
+
+	<!-- <section class="sma-container" ng-switch-when="overview"> -->
+	<section class="sma-container">
+		
+		<div class="sma-workspace">
+			<h2 class="ws-title">Overview</h2>
+			<p class="ws-subtitle">I would like to enrich MeaslesDisneySpread.csv with</p>
+		</div>
+
+		<section class="sma-toolbar">
+		</section>
+
+	</section>
+
+
+</section>
+
+</div>

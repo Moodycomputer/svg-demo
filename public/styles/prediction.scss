@@ -43,6 +43,18 @@ span.three-bar {
 	z-index: 100;
 }
 
+.upgrade-bar svg {
+	height: 45px;
+	margin: 3px;
+	// float: right;
+	right: 10%;
+}
+
+.upgrade-bar p {
+	right: 3%;
+	color: #DDDDDD;
+}
+
 .insight-bar{
 	background: color('gray', 20);
 	box-shadow: 0 0 6px 1px color('gray', 20);
@@ -57,6 +69,7 @@ span.three-bar {
 	padding: 1em;
 	background: color('white');
 	color: color('gray', 60);
+	height: 140px;
 }
 
 .insight-title{
@@ -97,12 +110,86 @@ span.three-bar {
 
 }
 
+// .viz-main {
+// 	overflow: hidden;
+// }
+
+.sm-menu {
+	width: 15%;
+	display: inline-block;
+	float: left;
+	margin-top: 10%;
+}
+
+.sm-menu svg {
+	height: 175px;
+	margin-left: 10px;
+}
+
+.spiral1 {
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+
+.spiral2 {
+	width: 5%;
+	display: inline-block;
+	float: left;
+}
+
+.spiral1 svg {
+	width: 400px;
+	height: 500px;
+	margin-left: 15%;
+	margin-top: -5%;
+}
+
+.spiral2 svg.spiral {
+	margin-left: -13%;
+	height: 300px;
+	margin-top: 0;
+	margin-left: 1%;
+}
+
+.spiral2 svg.pin {
+	// margin-left: -13%;
+	height: 40px;
+	margin-top: 30%;
+	margin-left: 10%;
+}
+
+.lg-menu {
+	width: 40%;
+	display: inline-block;
+	float: right;
+}
+
+.lg-menu p:nth-child(2) {
+	float: right;
+	color: #3F9DD5;
+	padding-right: 5%;
+	margin: 0;
+}
+
+.lg-menu svg {
+	height: 325px;
+	// margin-top: 10%;	
+}
+
+svg.arrow {
+	height: 30px;
+	margin: 0 37%;
+}
+
 .predict-footer {
 	margin-left: -3px;
 }
 
 .predict-footer svg {
 	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
 
 
@@ -110,7 +197,7 @@ span.three-bar {
 	flex: 1;
 }
 
-.viz-main p {
+.viz-main h3 {
  	text-align: center;
 }
 
