@@ -214,3 +214,14 @@
 .sma-toolbar .tag::after{
 	content: '+';
 }
+
+.big-button{
+	background: color('teal', 50);
+	color: color('white');
+	display: inline-block;
+	clear: both;
+	margin: 4em 0 0;
+	padding: .5em 1em;
+	width: inherit;
+	border-radius: 5px;
+}
