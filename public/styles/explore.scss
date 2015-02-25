@@ -1,5 +1,4 @@
 .main-explore {
-  
 }
 
 .main-explore div {
@@ -11,6 +10,20 @@
 .main-explore div svg {
   height: 45px;
   margin-left: 10px;
+}
+
+.left-explore {
+  margin-left: 60px;
+}
+
+.center-explore {
+  line-height: 51px;
+  color: #fff;
+}
+
+.right-explore {
+  line-height: 51px;
+  color: #fff;
 }
 
 .upgrade-explore {
@@ -29,7 +42,7 @@
 }
 
 .suggestion-bar svg:nth-child(1) {
-  margin-left: -25px;
+  margin-left: 15px;
 }
 
 .suggestion-bar svg:nth-child(6) {
@@ -47,7 +60,9 @@
 }
 
 .explore-main svg.graph {
-  height: 400px;
+  height: 600px;
+  margin-left: 75px;
+
 }
 
 .explore-main svg.side-explore {
@@ -55,11 +70,16 @@
   margin-top: 3%;
 }
 
+.explore-main svg.right-arrow {
+  margin-top: 10%;
+  height: 40px;
+}
+
 .explore-main svg.sentiment {
-  height: 42px;
+  height: 56px;
 }
 
 .explore-main svg.footer {
-  height: 42.5px;
+  height: 57px;
   margin-left: -6px;
 }
