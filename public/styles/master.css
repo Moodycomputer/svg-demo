@@ -508,7 +508,16 @@ svg.arrow {
   height: 43px;
   margin-left: -6px; }
 
+.sma-header {
+  height: 2.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #464646;
+  z-index: 99; }
+
 .sma-wrapper {
+  margin-top: 2.5em;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -532,7 +541,7 @@ svg.arrow {
   .sma-nav hr {
     border: none;
     height: 1px;
-    background: #EED2FF;
+    background: #006D5D;
     margin: .5em 1em; }
 
 .sma-main {
@@ -551,7 +560,7 @@ svg.arrow {
 .ws-title {
   font-size: 2em;
   font-weight: 300;
-  margin: 0 0 .5em;
+  margin: 1em 0 .5em;
   border-bottom: 1px solid; }
 
 .ws-subtitle {
@@ -567,13 +576,42 @@ svg.arrow {
 
 .source-icon {
   width: 6.5em;
-  height: 6.5em;
-  background: #734098; }
+  height: 6.5em; }
+
+.sma-toolbar .source-icon {
+  width: 4.5em;
+  height: 4.5em;
+  opacity: .75; }
 
 .source-name {
   font-weight: 300;
   color: #5A5A5A;
   margin: .5em 0 0; }
+
+.dateForm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 .5em; }
+  .dateForm input {
+    flex: 1;
+    border: 1px solid #777677;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    padding: 0 1em;
+    font-family: inherit; }
+    .dateForm input:focus {
+      outline: none;
+      background: #E0E0E0; }
+  .dateForm [type="checkbox"] {
+    display: inline;
+    flex: 0;
+    width: auto; }
+  .dateForm small {
+    display: inline; }
+  .dateForm div {
+    width: 30%; }
 
 .addForm {
   margin: 0 0 2em;
@@ -606,15 +644,16 @@ svg.arrow {
       outline: none; }
 
 .tag {
-  display: inline-block;
-  color: #5A5A5A;
-  border: 2px solid #777677;
+  display: block;
+  float: left;
   font-weight: 300;
-  padding: .425em .75em;
+  padding: .25em .75em;
   margin: 0 .75em .75em 0;
-  border-radius: 5px; }
+  border-radius: 5px;
+  color: #5A5A5A;
+  border: 1px solid #777677; }
 
-.tag.watson {
+.tag.user {
   color: #FFFFFF;
   background: #008571;
   border: 2px solid #008571; }
@@ -627,20 +666,40 @@ svg.arrow {
 .sma-toolbar {
   width: 25em;
   padding: 1.5em 2em 0;
-  background: #C7C7C7; }
+  background: #f0f2f3;
+  border-left: 1px solid #E0E0E0; }
 
 .toolbar-header {
-  font-size: 1.5em;
+  font-size: 1em;
+  font-weight: 300;
+  color: #464646;
+  border-bottom: 1px solid #323232;
+  padding: 0;
+  margin: 59px 0 1em; }
+  .toolbar-header svg {
+    height: 1.5em;
+    margin: 0 0 .25em; }
+  .toolbar-header .hide {
+    visibility: hidden; }
+
+.toolbar-prompt {
+  font-size: .875em;
+  line-height: 1.4;
   font-weight: 300;
   color: #464646; }
 
-.sma-toolbar .tag {
-  color: #FFFFFF;
-  background: #008571;
-  border: none; }
-
 .sma-toolbar .tag::after {
   content: '+'; }
+
+.big-button {
+  background: #008571;
+  color: #FFFFFF;
+  display: inline-block;
+  clear: both;
+  margin: 4em 0 0;
+  padding: .5em 1em;
+  width: inherit;
+  border-radius: 5px; }
 
 .main-explore svg {
   width: 40px;
