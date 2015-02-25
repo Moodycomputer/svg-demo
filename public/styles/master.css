@@ -451,6 +451,17 @@ svg.arrow {
   height: 45px;
   margin-left: 10px; }
 
+.left-explore {
+  margin-left: 60px; }
+
+.center-explore {
+  line-height: 51px;
+  color: #fff; }
+
+.right-explore {
+  line-height: 51px;
+  color: #fff; }
+
 .suggestion-bar {
   margin-top: 101px;
   border-bottom: 2px solid #E0E0E0; }
@@ -461,7 +472,7 @@ svg.arrow {
   border-right: 1px solid #929497; }
 
 .suggestion-bar svg:nth-child(1) {
-  margin-left: -25px; }
+  margin-left: 15px; }
 
 .suggestion-bar svg:nth-child(6) {
   width: 8%; }
@@ -475,17 +486,22 @@ svg.arrow {
   text-align: center; }
 
 .explore-main svg.graph {
-  height: 400px; }
+  height: 600px;
+  margin-left: 75px; }
 
 .explore-main svg.side-explore {
   height: 400px;
   margin-top: 3%; }
 
+.explore-main svg.right-arrow {
+  margin-top: 10%;
+  height: 40px; }
+
 .explore-main svg.sentiment {
-  height: 42px; }
+  height: 56px; }
 
 .explore-main svg.footer {
-  height: 42.5px;
+  height: 57px;
   margin-left: -6px; }
 
 .sma-wrapper {
@@ -621,3 +637,22 @@ svg.arrow {
 
 .sma-toolbar .tag::after {
   content: '+'; }
+
+.gray-bar {
+  width: 100%;
+  height: 50px;
+  margin-top: 101px;
+  background: #E9E9E9; }
+
+.gray-bar svg {
+  float: right;
+  height: 45px;
+  margin-right: 1.5em; }
+
+.assemble-svg {
+  margin-top: 151px; }
+
+.assemble-svg svg {
+  height: 560px;
+  position: fixed;
+  bottom: 0; }
