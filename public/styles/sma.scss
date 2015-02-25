@@ -1,4 +1,13 @@
+.sma-header{
+	height: 2.5em;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: color('gray', 70);
+}
+
 .sma-wrapper{
+	margin-top: 2.5em;
 	height: 100vh;
 	width: 100%;
 	display: flex;
@@ -26,7 +35,7 @@
 	hr{
 		border: none;
 		height: 1px;
-		background: color('purple', 10);
+		background: color('teal', 60);
 		margin: .5em 1em;
 	}
 }
@@ -39,7 +48,6 @@
 	flex: 1;
 	display: flex;
 	flex-direction: row;
-	// min-height: 100vh;
 	align-items: stretch;
 }
 
@@ -50,7 +58,7 @@
 .ws-title{
 	font-size: 2em;
 	font-weight: 300;
-	margin: 0 0 .5em;
+	margin: 1em 0 .5em;
 	border-bottom: 1px solid;
 }
 .ws-subtitle{
@@ -68,12 +76,51 @@
 .source-icon{
 	width: 6.5em;
 	height: 6.5em;
-	background: color('purple', 60);
+	background: color('teal', 60);
+}
+.sma-toolbar .source-icon{
+	width: 4.5em;
+	height: 4.5em;
+	background: color('teal', 40);
 }
 .source-name{
 	font-weight: 300;
 	color: color('gray', 60);
 	margin: .5em 0 0;
+}
+
+.dateForm{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 .5em;
+	label{
+		
+	}
+	input{
+		flex: 1;
+		border: 1px solid color('gray', 50);
+		border-radius: 5px;
+		font-size: 1em;
+		width: 100%;
+		padding: 0 1em;
+		font-family: inherit;
+		&:focus{
+			outline: none;
+			background: color('gray', 10);
+		}
+	}
+	[type="checkbox"]{
+		display: inline;
+		flex: 0;
+		width: auto;
+	}
+	small{
+		display: inline;
+	}
+	div{
+		width: 30%;
+	}
 }
 
 .addForm{
@@ -113,16 +160,16 @@
 }
 
 .tag{
-	display: inline-block;
-	color: color('gray', 60);
-	// background: color('gray', 70);
-	border: 2px solid color('gray', 50);
+	display: block;
+	float: left;
 	font-weight: 300;
-	padding: .425em .75em;
+	padding: .25em .75em;
 	margin: 0 .75em .75em 0;
 	border-radius: 5px;
+	color: color('gray', 60);
+	border: 1px solid color('gray', 50);
 }
-.tag.watson{
+.tag.user{
 	color: color('white');
 	background: color('teal', 50);
 	border: 2px solid color('teal', 50);
@@ -138,20 +185,32 @@
 .sma-toolbar{
 	width: 25em;
 	padding: 1.5em 2em 0;
-	background: color('gray', 20);
+	background: #f0f2f3;
+	border-left: 1px solid color('gray', 10);
 }
 
 .toolbar-header{
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: 300;
 	color: color('gray', 70);
+	border-bottom: 1px solid color('gray', 80);
+	padding: 0;
+	margin: 59px 0 1em;
+	svg{
+		height: 1.5em;
+		margin: 0 0 .25em;
+	}
+	.hide{
+		visibility: hidden;
+	}
+}
+.toolbar-prompt{
+	font-size: .875em;
+	line-height: 1.4;
+	font-weight: 300;
+	color: color('gray', 70)
 }
 
-.sma-toolbar .tag{
-	color: color('white');
-	background: color('teal', 50);
-	border: none;
-}
 .sma-toolbar .tag::after{
 	content: '+';
 }

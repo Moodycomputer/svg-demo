@@ -104,6 +104,17 @@ pointy.controller('smaController', ['$scope', function($scope) {
 	}
 
 
+	//Languages
+	$scope.languages = data.languages;
+
+	$scope.selectLanguage = function(source){
+		source.language.chosen = true;
+	}
+	$scope.deselectLanguage = function(source){
+		source.language.chosen = false;
+	}
+
+
 	//Keywords
 	$scope.keywords = data.keywords;
 	$scope.suggestedKeywords = data.suggestedKeywords;
@@ -127,6 +138,32 @@ pointy.controller('smaController', ['$scope', function($scope) {
 		$scope.keywords.unshift(word);
 		$scope.suggestedKeywords.splice(word.$index, 1);
 	}
+
+
+	//Exclusions
+	$scope.exclusions = data.exclusions;
+	$scope.suggestedExclusions = data.suggestedExclusions;
+
+	$scope.addExclusions = function(){
+		var newArray = [];
+
+		angular.forEach($scope.newExclusions, function(d, i) {
+			newArray.push({text: d, source: 'user'});
+		});
+
+		$scope.exclusions = newArray.concat($scope.exclusions);
+		$scope.newExclusions = "";
+	}
+
+	$scope.deleteExclusion = function(word){
+		$scope.exclusions.splice(word.$index, 1);
+	}
+
+	$scope.chooseExclusion = function(word){
+		$scope.exclusions.unshift(word);
+		$scope.suggestedExclusions.splice(word.$index, 1);
+	}
+
 
 }]);
 
@@ -170,11 +207,21 @@ data.assets = [
 data.sources = [
 	{title: 'Twitter', image: '', chosen: true},
 	{title: 'Facebook', image: '', chosen: true},
-	{title: 'Snapchat', image: '', chosen: true},
-	{title: 'Foo', image: '', chosen: true},
-	{title: 'Bar', image: '', chosen: false}
+	{title: 'Snapchat', image: '', chosen: false},
+	{title: 'Reddit', image: '', chosen: true},
+	{title: 'Vine', image: '', chosen: false},
+	{title: 'Cancer', image: '', chosen: false}
 ]
 
+data.languages = [
+	{title: 'English', chosen: true},
+	{title: 'German', chosen: true},
+	{title: 'Japanese', chosen: true},
+	{title: 'Chinese', chosen: true},
+	{title: 'Spanish', chosen: false},
+	{title: 'Catalan', chosen: false},
+	{title: 'Cholo', chosen: false}
+]
 
 
 data.keywords = [
@@ -183,6 +230,17 @@ data.keywords = [
 	{text: "Gamma", source: 'user'},
 ]
 data.suggestedKeywords = [
+	{text: "Kappa", source: 'watson'}, 
+	{text: "Phi", source: 'watson'}, 
+	{text: "Delta", source: 'watson'},
+]
+
+data.exclusions = [
+	{text: "Alpha", source: 'user'}, 
+	{text: "Beta", source: 'user'}, 
+	{text: "Gamma", source: 'user'},
+]
+data.suggestedExclusions = [
 	{text: "Kappa", source: 'watson'}, 
 	{text: "Phi", source: 'watson'}, 
 	{text: "Delta", source: 'watson'},
