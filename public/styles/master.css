@@ -30,8 +30,34 @@ body {
   display: flex;
   flex-direction: column; }
 
-.main-nav.welcome div {
-  margin-left: 45%; }
+.main-nav.welcome {
+  position: inherit;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden; }
+
+.col-left-welcome {
+  color: white;
+  font-size: 1.2em;
+  line-height: 60px;
+  float: left;
+  width: 33%; }
+
+.col-center-welcome {
+  color: white;
+  font-size: 1.2em;
+  line-height: 51px;
+  float: left;
+  width: 33%; }
+
+.col-right-welcome {
+  color: white;
+  font-size: 1.2em;
+  line-height: 51px;
+  float: left;
+  width: 32%;
+  padding-left: 9%; }
 
 .main-nav.welcome div svg {
   fill: white;
@@ -42,7 +68,7 @@ body {
   color: #FFFFFF;
   font-size: 1.2em;
   line-height: 60px;
-  margin-left: 2.5em; }
+  margin-left: .5em; }
 
 .icon-svg {
   z-index: 1000; }
@@ -55,20 +81,32 @@ div.right-welcome {
 
 .welcome-container {
   width: 100%;
-  height: 100vh;
   padding: 0;
   margin: 0;
   background: #EFEFEF;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow: hidden; }
 
-header {
+.welcome-graphic svg {
+  height: 450%; }
+
+.header {
   width: 100%;
-  height: 4.5em;
+  height: 72px;
+  background: #FFFFFF;
+  z-index: 100;
+  left: 0;
+  position: absolute;
+  overflow: hidden; }
+
+.eader {
+  overflow: hidden;
+  width: 100%;
+  height: 72px;
   background: #FFFFFF;
   position: fixed;
   z-index: 100;
-  left: 0;
-  top: 51px; }
+  left: 0; }
 
 .divider {
   display: inline-block;
@@ -152,7 +190,6 @@ svg {
   padding: 1em 3em;
   width: 100%;
   margin: 0 auto;
-  margin-top: 9%;
   box-sizing: border-box; }
 
 .welcome-box {
@@ -163,7 +200,8 @@ svg {
 
 .welcome-box-container {
   width: 1155px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 100px; }
 
 .image {
   height: 45%;
@@ -411,6 +449,68 @@ svg.arrow {
     background: #E0E0E0;
     border: 1px solid #AEAEAE; }
 
+.main-explore div {
+  height: 51px;
+  width: 30%;
+  display: inline; }
+
+.main-explore div svg {
+  height: 45px;
+  margin-left: 10px; }
+
+.left-explore {
+  margin-left: 60px; }
+
+.center-explore {
+  line-height: 51px;
+  color: #fff; }
+
+.right-explore {
+  line-height: 51px;
+  color: #fff; }
+
+.suggestion-bar {
+  margin-top: 101px;
+  border-bottom: 2px solid #E0E0E0; }
+
+.suggestion-bar svg {
+  width: 18%;
+  height: 110px;
+  border-right: 1px solid #929497; }
+
+.suggestion-bar svg:nth-child(1) {
+  margin-left: 15px; }
+
+.suggestion-bar svg:nth-child(6) {
+  width: 8%; }
+
+.explore-main {
+  width: 100%; }
+
+.explore-main h3 {
+  font-weight: 400;
+  color: #616875;
+  text-align: center; }
+
+.explore-main svg.graph {
+  height: 600px;
+  margin-left: 75px; }
+
+.explore-main svg.side-explore {
+  height: 400px;
+  margin-top: 3%; }
+
+.explore-main svg.right-arrow {
+  margin-top: 10%;
+  height: 40px; }
+
+.explore-main svg.sentiment {
+  height: 56px; }
+
+.explore-main svg.footer {
+  height: 57px;
+  margin-left: -6px; }
+
 .sma-header {
   height: 2.5em;
   position: fixed;
@@ -603,3 +703,28 @@ svg.arrow {
   padding: .5em 1em;
   width: inherit;
   border-radius: 5px; }
+
+.main-explore svg {
+  width: 40px;
+  margin-top: 3px; }
+
+.gray-bar {
+  width: 100%;
+  height: 50px;
+  margin-top: 101px;
+  background: #E9E9E9; }
+
+.gray-bar svg {
+  float: right;
+  height: 45px;
+  margin-right: 1.5em; }
+
+.assemble-svg {
+  margin-top: 151px; }
+
+.assemble-svg svg {
+  height: 540px;
+  position: fixed;
+  display: block;
+  bottom: 0;
+  margin: 0 auto; }
