@@ -4,6 +4,7 @@
 	top: 0;
 	width: 100%;
 	background: color('gray', 70);
+	z-index: 99;
 }
 
 .sma-wrapper{
@@ -76,12 +77,11 @@
 .source-icon{
 	width: 6.5em;
 	height: 6.5em;
-	background: color('teal', 60);
 }
 .sma-toolbar .source-icon{
 	width: 4.5em;
 	height: 4.5em;
-	background: color('teal', 40);
+	opacity: .75;
 }
 .source-name{
 	font-weight: 300;

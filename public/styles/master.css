@@ -516,7 +516,8 @@ svg.arrow {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #464646; }
+  background: #464646;
+  z-index: 99; }
 
 .sma-wrapper {
   margin-top: 2.5em;
@@ -578,13 +579,12 @@ svg.arrow {
 
 .source-icon {
   width: 6.5em;
-  height: 6.5em;
-  background: #006D5D; }
+  height: 6.5em; }
 
 .sma-toolbar .source-icon {
   width: 4.5em;
   height: 4.5em;
-  background: #00B4A0; }
+  opacity: .75; }
 
 .source-name {
   font-weight: 300;
