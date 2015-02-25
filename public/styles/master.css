@@ -645,6 +645,10 @@ svg.arrow {
 .sma-toolbar .tag::after {
   content: '+'; }
 
+.main-explore svg {
+  width: 40px;
+  margin-top: 3px; }
+
 .gray-bar {
   width: 100%;
   height: 50px;
