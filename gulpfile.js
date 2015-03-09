@@ -12,18 +12,6 @@ gulp.task('connect', function() {
 	});
 });
 
-
-gulp.task('style', function(){
-	return gulp.src('./public/styles/master.scss')
-		.pipe(watch('./public/styles/*.scss'))
-		.pipe(plumber())
-		.pipe(sass())
-		.pipe(gulp.dest('./public/styles/'));
-});
-
-
-
-
 // Processes styles.less and spits out styles.css
 gulp.task('sass', function () {
 	gulp.src('./public/styles/master.scss')
@@ -40,6 +28,5 @@ gulp.task('watch', function(){
 });
 
 
-gulp.task('run', ['connect', 'style']);
-
 gulp.task('serve', ['sass', 'connect', 'watch']);
+gulp.task('default', ['sass', 'connect', 'watch']);
